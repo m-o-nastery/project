@@ -1,0 +1,81 @@
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+body {
+    background-color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #FF0099;
+}
+.site-menu {
+    display: flex;
+    gap: 260px;
+    align-items: center;
+    border: #FF0099 1px solid;
+}
+.list {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #FF0099;
+}
+.l-i:hover {
+    color: #CC00FF;
+}
+.discription {
+    background-image: url('img/дым.jpg');
+    display: flex;
+    gap: 245px;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin: 19px 0 19px 0;
+}
+.dis-photo {
+    margin-left: 175px;
+}
+main {
+    border: #FF0099 1px solid;
+    padding: 19px 0 19px 0;
+}
+.fl-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.fl-1-col-2 {
+    width: 356px;
+}
+.fl-1-photo {
+    width: 324px;
+    height: 486.37;
+}
+.btn {
+    background-color: #FF0099;
+    color: white;
+    width: 217px;
+    border-radius: 50px;
+    text-align: center;
+    margin: 50px auto 0;
+    font-size: 32px;
+    padding: 15px 7px;
+    transition: 1.5s;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #CC00FF;
+}
+.fl-2 {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.fl-2-col-2 {
+    width: 356px;
+}
+.fl-2-photo {
+    width: 324px;
+    height: 358.34px;
+}
